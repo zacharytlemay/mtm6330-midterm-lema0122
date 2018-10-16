@@ -1,0 +1,61 @@
+body {
+  background-color: #4aa5cf;
+  opacity: 50%; }
+
+h1 {
+  border: 2px solid #fde642;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font: #49525a 25px; }
+
+@media only screen and (max-width: 600px) {
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    align-content: center;
+    display: block;
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 3px solid #fde642;
+    /* Yellow border */
+    border-radius: 4px;
+    /* Rounded borders */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */ }
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aa5cf;
+    border-color: 5px solid #fde642;
+    color: #49525a;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer; } }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  align-content: center;
+  display: block;
+  width: 25%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 3px solid #fde642;
+  /* Yellow border */
+  border-radius: 4px;
+  /* Rounded borders */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */ }
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4aa5cf;
+  border-color: 5px solid #fde642;
+  color: #49525a;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer; }
