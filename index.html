@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ZTL Media</h1>
+
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ad, accusantium possimus velit explicabo itaque enim a doloremque maxime ea inventore eos cumque alias iure dolores veniam sint vitae! Cumque?</p>
+
+<!--image gallery code from w3schools-->
+<h3> Portfolio</h3>
+          <style>
+          div.gallery {
+            border: 1px solid #49525a;
+        } 
+        
+        div.gallery:hover {
+            border: 1px solid #fde642;
+        }
+        
+        div.gallery img {
+            width: 75%;
+            height: auto;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        </style>
+        </head>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+            </a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="">
+              <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+            </a>
+          </div>
+        </div>
+
+        <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="">
+                        <video width="600" height="400" controls>
+                                <source src="movie.mp4" type="video/mp4">
+                  </a>
+                </div>
+              </div>
+        
+        <div class="clearfix"></div>
+
+        <!--contact form code from w3schools-->
+        <form action="action_page.php">
+          
+                <label for="fname"> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+            
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+    
+</body>
+</html>
