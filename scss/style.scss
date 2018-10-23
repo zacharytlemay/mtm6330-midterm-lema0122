@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://freefontsfamily.com/gotham-font-family/);
+}
+
 body {
     background-color: #4aa5cf;
     opacity: 50%;
@@ -9,6 +14,19 @@ h1 {
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font: #49525a 25px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: #492525a;
+    font-size: 25px;
+}
+
+h3 {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #fde642;
+    box-sizing: border-box;
 }
 
 footer {
