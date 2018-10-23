@@ -4,17 +4,19 @@ body {
 }
 
 h1 {
-    border: 2px solid #fde642;
-    margin: 1px;
-    box-sizing: border-box;
+    border: 10px solid #fde642;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font: #49525a, 50px;
-    align-content: center;
+    font: #49525a;
+    font-size: 35px;
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font: #49525a, 25px;
+    font: #49525a;
+    font-size: 14px;
 }
 
 img {
@@ -29,7 +31,5 @@ footer {
     margin-right: auto;
     border: #fde642 solid 3px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    margin: 5px;
-    
+    font-size: 25px;   
 }
